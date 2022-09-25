@@ -1,0 +1,278 @@
+    html {
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+      }
+      
+      ol, ul {
+        list-style: none;
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+    .header-container {
+        display: flex;
+        width: 1440px;
+        padding-top: 104px;
+        padding-left: 133px;
+        padding-right: 133px;
+        padding-bottom: 168px;
+    }
+    
+    .header {
+        display: flex;
+        width: 100%;
+        padding-top: 104px;
+        padding-left: 133px;
+        padding-right: 133px;
+        padding-bottom: 168px;
+        background-color: #f8f8f8;
+    }
+    
+    .header-title {
+        position: absolute;
+        width: 135px;
+        height: 32px;
+        left: 133px;
+        top: 104px;
+        line-height: 186%;
+        font-size: 24px;
+        font-weight: 300;
+        font-size: 24px;
+        color: #404040;
+    }
+    
+    .header-subtitle {
+        position: absolute;
+        width: 877px;
+        height: 215px;
+        left: 133px;
+        top: 150px;
+        font-size: 250px;
+    }
+    
+    .header-description {
+        box-sizing: border-box;
+        position: absolute;
+        width: 575px;
+        height: 142px;
+        left: 135px;
+        top: 447px;
+        font-size: 32px;
+        font-family: inherit;
+        font-weight: lighter;
+        color: #404040;
+    }
+    
+    .watches1 {
+        padding-right: 10px;
+        padding-top: 1px;
+        padding-left: 250px;
+    }
+    
+    .buy-link {
+        text-decoration: none;
+        position: absolute;
+        width: 278px;
+        height: 82px;
+        left: 130px;
+        top: 660px;
+        font-weight: 300;
+        font-size: 32px;
+        width: 250px; /* Ширина слоя */
+        height: 100px; /* Высота слоя */
+        background: rgb(0, 0, 0); /* Цвет фона */
+        display: block; /* Ссылка как блочный элемент */
+        text-align: center; /* Выравнивание по центру */
+        height: 10%; /* Высота на весь слой */
+        color: rgb(255, 255, 255); /* Цвет ссылки */
+    }
+    
+    .price {
+        width: 278px;
+        height: 60%;
+        left: 380px;
+        top: 660px;
+        position: absolute;
+        width: 150px; /* Ширина слоя */
+        height: 220px; /* Высота слоя */
+        background: rgb(255, 255, 255); /* Цвет фона */
+        display: block; /* Ссылка как блочный элемент */
+        text-align: center; /* Выравнивание по центру */
+        height: 30%; /* Высота на весь слой */
+        color: rgb(0, 0, 0); /* Цвет ссылки */
+        font-size: 30px;
+    }
+    
+    .popular {
+        position: absolute;
+        width: 171px;
+        height: 41px;
+        left: 695px;
+        top: 943px;
+        font-weight: 300;
+        font-size: 24px;
+    }
+    
+    .Models {
+        position: absolute;
+        width: 285px;
+        height: 62px;
+        left: 585px;
+        top: 984px;
+        font-weight: 400;
+        font-size: 72px;
+        text-align: center;
+    }
+    
+    .watches2 {
+        position: absolute;
+        width: 286px;
+        height: 410px;
+        left: 582px;
+        top: 1240px;
+        text-align: center;
+    }
+    
+    #rectangle {
+        width: 200px;
+        height: 50px;
+        background: #f8f8f8;
+        position: absolute;
+        display: block;
+        width: 350px;
+        height: 500px;
+        left: 550px;
+        top: 1130px;
+        color: #000;
+    }
+    
+    .product {
+        position: absolute;
+        width: 531px;
+        height: 194px;
+        left: 454px;
+        top: 1750px;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 155%;
+        text-align: center;
+        color: #404040;
+    }
+    
+    .son22 {
+        position: absolute;
+        width: 285px;
+        height: 27px;
+        left: 576px;
+        top: 1680px;
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .watches3 {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        left: 48 0px;
+        top: 2215px;
+        text-align: center;
+    }
+    
+    .item-img-wrapper {
+        width: 350px;
+        height: 500px;
+        background-color: #f8f8f8;
+        display: flex;
+        top: 1000px;
+        justify-content: center;
+        margin-top: 1200px;
+        align-items: center;
+        margin-left: 550px;
+    }
+    
+    .item-wrapper {
+        vertical-align:top;
+        margin-top: 1100px;
+        justify-content: center;
+        width: 417px;
+    }
+    
+    .GMT {
+        position: absolute;
+        width: 285px;
+        height: 27px;
+        left: 576px;
+        top: 2670px;
+        font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .product2 {
+        position: absolute;
+        width: 531px;
+        height: 194px;
+        left: 454px;
+        top: 2800px;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 155%;
+        text-align: center;
+        color: #404040;
+    }
+    
+    .PD {
+        position: absolute;
+        width: 972px;
+        height: 50px;
+        left: 234px;
+        top: 3300px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 186%;
+        text-align: center;
+    }
+    
+    .line {
+        position: absolute;
+        width: 178.03px;
+        top: 3370px;
+        left: 631px;
+    
+        border: none;
+        background-color: #707070;
+        color: #707070;
+        height: 2px;
+    }
+    
+    .last_text {
+        position: absolute;
+        width: 515px;
+        height: 231px;
+        left: 464px;
+        top: 3500px;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: #404040;
+    }
+    
+    .last_href {
+        text-decoration: none;
+        color: #bb8b5d;
+    }
+
